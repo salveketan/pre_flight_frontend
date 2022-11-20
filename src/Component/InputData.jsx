@@ -23,7 +23,7 @@ const InputData = () => {
         }
         else {
             const data =
-                await fetch("http://localhost:5000",
+                await fetch("https://preflightbackend.herokuapp.com/",
                     {
                         method: "POST",
                         headers: {

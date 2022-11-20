@@ -1,16 +1,3 @@
-// import React from 'react'
-
-// const HomePage = () => {
-//   return (
-//     <div>
-
-//     </div>
-//   )
-// }
-
-// export default HomePage
-
-
 import { Box, Button, Link, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import featuredIn from "../modules/featuredIn.png"

@@ -18,7 +18,7 @@ export default function UserDetail() {
     const [user, setUser] = useState("")
     // console.log(id);
     useEffect(() => {
-        fetch(`http://localhost:5000/${id}`, {
+        fetch(`https://preflightbackend.herokuapp.com/${id}`, {
             method: "get",
             headers: {
                 "Content-Type": "application/json"
@@ -29,7 +29,6 @@ export default function UserDetail() {
 
     }, [])
 
-    console.log("k", user);
 
     return (
         <Center py={6}>

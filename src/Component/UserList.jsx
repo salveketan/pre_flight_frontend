@@ -8,7 +8,7 @@ const UserList = () => {
     const [user, setUser] = useState("")
     const navigate = useNavigate();
     useEffect(() => {
-        fetch("http://localhost:5000", {
+        fetch("https://preflightbackend.herokuapp.com/", {
             method: "get",
             headers: {
                 "Content-Type": "application/json"
